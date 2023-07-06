@@ -3,6 +3,295 @@
 <head>
 <meta charset="utf-8">
 <title>GTCMJ</title>
+<style>a {
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+}
+body {
+	background-image: url(/violet.png);
+}
+
+
+
+
+
+
+
+
+.header {
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+.header .logo {
+	height: 100px;
+	width: 150px;
+	position: absolute;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.header .logo img {
+	height: 100%;
+	width: 100%;
+}
+
+
+.header .buttom {
+	height: 50px;
+	width: 200px;
+	float: left;
+	border: 2px solid rgba(158,153,155,1);
+	margin-left: 200px;
+	margin-top: 25px;
+}
+.header .buttom a {
+	text-align: center;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	width: 100px;
+}
+.header .buttom .bg_red {
+	font-weight: bold;
+	background-color: rgba(152,124,108,0.9);
+	color: rgba(255,255,255,1);
+}
+.header .search {
+	float: left;
+	margin-left: 150px;
+	height: 50px;
+	width: 300px;
+	margin-top: 25px;
+	border: 2px solid rgba(170,137,127,1);
+}
+.header .search .search_text {
+	font-size: 16px;
+	line-height: 30px;
+	width: 250px;
+	height: 50px;
+	color: rgba(214,214,214,1);
+	background-color: rgba(255,255,255,0.4);
+	text-align: center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+
+}
+.header .search .search_button {
+	float: left;
+	background-color: rgba(193,168,152,0.8);
+	color: rgba(255,255,255,1);
+	position: absolute;
+	font-size: 16px;
+	height: 50px;
+	width: 50px;
+	font-weight: bold;
+	text-align: center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: rgba(204,153,204,1);
+	border-right-color: rgba(204,153,204,1);
+	border-bottom-color: rgba(204,153,204,1);
+	border-left-color: rgba(204,153,204,1);
+}
+.header .register :hover {
+	font-size: 18px;
+	border-radius: 30px;
+}
+
+.header .register {
+	float: right;
+	background-color: rgba(204,153,204,1);
+	height: 50px;
+	width: 150px;
+	margin-right: 50px;
+	margin-top: 25px;
+	font-size: 14px;
+	
+}
+.header .register a :hover {
+	color: rgba(255,255,255,1);
+	text-align: center;
+	display: block;
+	line-height: 50px;
+	font-weight: bold;
+}
+.header .register a {
+	font-weight: bold;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	display: block;
+	line-height: 50px;
+	
+}
+.main {
+	background-color: rgba(255,255,255,0.4);
+	height: 450px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 100px;
+	padding-right: 80px;
+	padding-left: 100px;
+	position: relative;
+	text-align: center;
+}
+.main h1 {
+	text-align: center;
+}
+
+.main .line {
+	height: 1px;
+	width: 800px;
+	background-color: rgba(0,0,0,1);
+}
+.main .form {
+	text-align: center;
+}
+.main .form ul {
+	list-style-type: none;
+}
+.main .form ul li {
+	margin-top: 20px;
+
+}
+.main .form ul li .text {
+	width: 200px;
+	height: 30px;
+	font-weight: bolder;
+	color: rgba(181,200,211,1);
+	background-color: rgba(255,255,255,0.4);
+	border-top-width: 1px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgba(255,153,0,1);
+	border-right-color: rgba(255,153,0,1);
+	border-bottom-color: rgba(204,153,204,1);
+	border-left-color: rgba(255,204,51,1);
+	border-radius: 10px;
+	text-align: center;
+}
+.main .form ul li .main_button {
+;
+	font-weight: bold;
+	margin-right: 140px;
+	border: 1px solid rgba(239,179,78,1);
+	width: 60px;
+	font-size: 16px;
+	background-color: rgba(255,153,0,0.8);
+	bottom: 20px;
+	color: rgba(255,255,255,1);
+}
+.main .form ul li .main_button:hover {
+}
+
+.main .form ul li .main_button:hover {
+	font-weight: bold;
+	color: rgba(255,255,255,1);
+}
+
+.main .form ul li .main_checkbox {
+	font-size: 16px;
+	height: 25px;
+	color: rgba(255,255,255,1);
+	font-weight: bolder;
+	font-weight: bold;
+	width: 120px;
+	margin-left: 50px;
+	position: relative;
+	bottom: 45px;
+	border-top-width: 1px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgba(255,153,0,1);
+	border-right-color: rgba(255,153,0,1);
+	border-bottom-color: rgba(204,153,204,1);
+	border-left-color: rgba(255,204,51,1);
+	background-color: rgba(245,243,234,1);
+}
+.main .form ul li a {
+	height: 20px;
+	color: rgba(102,102,102,1);
+	font-weight: bolder;
+	font-weight: bolder;
+	width: 120px;
+	margin-left: 350px;
+	position: relative;
+	bottom: 45px;
+	border-top-width: 1px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgba(255,153,0,1);
+	border-right-color: rgba(255,153,0,1);
+	border-bottom-color: rgba(204,153,204,1);
+	border-left-color: rgba(255,204,51,1);
+	border-radius: 10px;
+	text-align: center;
+	border-radius: 10px;
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+.main .form ul li a:hover {
+	font-weight: bold;
+	color: rgba(255,255,255,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footed {
+	height: 200px;
+	width: 100%;
+	background-color: rgba(175,167,179,0.9);
+	text-align: center;
+	display: block;
+}
+.footed p {
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	line-height: 60px;
+
+}
+.footed p a {
+	color: rgba(255,255,255,1);
+	font-size: 12px;
+	text-decoration: underline;
+}
+</style>
 <link rel="shortcut icon" href="2.png" />
 <link rel="stylesheet" type="text/css" href="css/register.css">
 </head>
